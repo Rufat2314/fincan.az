@@ -18,11 +18,40 @@
                 title="Русский язык">
         </a>
 
-        <?php
-			include ('header.php');
-			include ('under_header.php');
-			include ('googleAdsense.php');
-		?>
+        <div class="header">
+
+            <!--18-->
+            <a href="index.html"><img src="fincan.png" alt="fincan logo" name="fincan_logo" width="280" height="140"
+                    class="fincan_logo" title="www.fincan.az"></a>
+
+            <div class="biznes">
+                <a href="biznes.php">
+                    <h3> Öz işinə start ver.! </h3>
+                </a>
+            </div>
+
+            <p class="headerElaqe">
+                <!-- 465 -->
+                Tel / Whatsapp: (055) 700-16-18 <br>
+                <a href="https://www.instagram.com/fincan.az" target="_blank"> Instagram: fincan.az </a> <br>
+                <a href="http://www.fb.com/Fincan.az" target="_blank">Facebook: fincan.az </a> <br>
+                E-mail: fincan@inbox.ru<br>
+
+            </p>
+        </div>
+
+        <div class="header_menu">
+            <ul class="LeftMenu">
+                <li> <a href="index.html"> Baş səhifə </a> </li>
+                <li> <a href="haqqimizda.php"> Haqqımızda</a> </li>
+                <li> <a href="catdirilma.php"> Çatdırılma</a> </li>
+                <li> <a href="elaqe.php"> Əlaqə</a> </li>
+            </ul>
+        </div>
+
+
+        <div class="googleAdsense"> </div>
+
 
 
         <!-- Fincan novleri  -->
@@ -242,14 +271,14 @@
         <div class="fb-root"></div>
 
         <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
 
 
@@ -262,16 +291,13 @@
 
         </div>
 
-
-
         <div class="clear"> </div>
 
 
-        <?php
-			include ('footer.php');
-		?>
-
-
+        <div class="footer">
+            <p> &nbsp;Fincan.az &copy; 2013 - 2018 </p>
+        </div>
+        
 
     </div>
 </body>
