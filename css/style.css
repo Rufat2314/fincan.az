@@ -1,0 +1,705 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+	background-image: url(../web_bg.gif);
+	background-repeat: repeat-x;
+	background-color: rgb(211, 237, 244);
+	background-position: center top;
+	font: bold 14px/25px Tahoma;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #4881CE;
+}
+
+img {
+	border: none;
+}
+
+.blok {
+	max-width: 1200px;
+	min-width: 980px;
+	border: 1px solid .1F72A5;
+	margin: 12px auto 12px auto;
+	background-color: #FFFFFF;
+	position: relative
+}
+
+.dil_secimi {
+	position: absolute;
+	top: 169px;
+	right: 50px;
+}
+
+.header {
+	background-image: url(../header.gif);
+	background-repeat: repeat-x;
+	height: 160px;
+}
+
+.fincan_logo {
+	float: left;
+	margin-top: 10px;
+}
+
+
+
+.header_menu {
+	height: 35px;
+	background: url(../nav_bj.jpg);
+	background-repeat: repeat-x;
+}
+
+.header_menu img {
+	float: left;
+	margin-top: 3px;
+	margin-left: 464px;
+}
+
+.header_menu p {
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+.header_menu a {
+	text-decoration: none;
+	color: blue;
+}
+
+.header_menu a:hover {
+	color: red;
+}
+
+
+
+
+.LeftMenu {
+	padding: 5px 0 0 0;
+	font-size: 15px;
+}
+
+.LeftMenu li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 35px;
+}
+
+.LeftMenu a {
+	text-decoration: none;
+	color: #4881CE;
+}
+
+.LeftMenu a:hover {
+	color: #FFFFFF;
+	background-color: #4881CE
+}
+
+
+
+
+.menu {
+	text-decoration: none;
+	color: #CE1B23;
+}
+
+.menu:hover {
+	color: #FFFFFF;
+	background-color: #CE1B23
+}
+
+
+.menu {
+	float: left;
+	width: 160px;
+	margin: 80px 0 0 5px;
+}
+
+.menuheader {
+	height: 35px;
+	background: url(../nav_bj.jpg);
+	background-repeat: repeat-x;
+}
+
+
+.menuheader1 {
+	text-align: left;
+	margin-top: 8px;
+	background-color: #D3EDF4;
+}
+
+.menu1 {
+	text-decoration: none;
+	padding: 2px;
+	color: #4881CE;
+}
+
+.menu1:hover {
+	color: #FFFFFF;
+	background-color: #4881CE
+}
+
+
+.menuR {
+	height: 275px;
+	width: 650px;
+	margin: 87px auto 0 auto;
+	background-color: #D3EDF4;
+}
+
+.menuRL {
+	float: left;
+	height: 335px;
+	width: 220px;
+	margin: 100px 2px auto auto;
+	background-color: #D3EDF4;
+}
+
+.fb-like-box {
+	float: left;
+	margin-left: 3px;
+}
+
+
+.hereketliKursor {
+	border: 1px solid #1F72A5;
+	width: 550px;
+	height: 73px;
+	margin: 470px auto 0 auto;
+	position: relative;
+}
+
+.hereketliKursor p {
+	padding: 10px;
+	font-size: 16px;
+	color: red;
+}
+
+.hereketliKursor img {
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 5px;
+
+}
+
+
+.haqqimizda {
+	width: 550px;
+	margin: 100px auto 0 auto;
+	background-color: #D3EDF4;
+	border: 1px solid #4881CE;
+	position: relative;
+}
+
+.haqqimizda p {
+	padding: 8px 10px;
+}
+
+.haqqimizda a {
+	color: #4881CE;
+	text-decoration: none;
+}
+
+.haqqimizda a:hover {
+	color: blue;
+}
+
+.ferqli {
+	color: #FF0000;
+}
+
+.biznes a {
+	text-decoration: none;
+}
+
+
+
+.left, .right {
+	list-style: none;
+	text-align: left;
+	position: absolute;
+}
+.left{
+	left: 30px;
+}
+.right{
+	right: 30px;
+}
+
+
+
+.FbImgPosition1 {
+	position: relative;
+	top: 8px;
+}
+
+.WPImgPosition {
+	position: relative;
+	top: 10px;
+}
+
+.FbImgPosition {
+	position: relative;
+	top: 5px;
+}
+
+.agentPosition {
+	position: relative;
+	top: 8px;
+}
+
+.konvertPosition {
+	position: relative;
+	top: 9px;
+}
+
+.TelefonPosition {
+	position: relative;
+	top: 10px;
+}
+
+.WhatsappPosition {
+	position: relative;
+	top: 12px;
+
+}
+
+
+
+
+
+
+.Fincanlar_ve_Fnumuneler {
+	width: 720px;
+	margin: 0 auto 0 auto;
+}
+
+
+.Fincanlar {
+	float: left;
+	margin: 90px 0 90px 14px;
+	padding: 20px 0 30px 0;
+	border: 1px solid #4881CE;
+	width: 690px;
+
+
+}
+
+.Fincanlar p {
+	text-align: left;
+	font-family: arial;
+	color: #0067FF;
+	margin: 10px 0 0 15px;
+}
+
+.Fincanlar h3 {
+	color: blue;
+	font-family: arial;
+	text-align: left;
+	margin: 20px 0 0 12px;
+}
+
+
+
+.Fnumuneler {
+	float: left;
+	margin: 0 0 0 9px;
+	padding: 20px 0 30px 0;
+	border: 1px solid #4881CE;
+	width: 700px;
+}
+
+.Fnumuneler img {
+	padding: 10px 0 40px 0;
+}
+
+.Fnumuneler p {
+	text-align: left;
+	margin: 30px 0 30px 90px;
+}
+
+
+
+
+.Fnumuneler,
+.Fincan_haqqinda,
+.Fincan_alt_yazilar,
+.haqqimizda,
+.hereketliKursor {
+	background-image: url(sprinkles_@2x.png);
+}
+
+.Fnumuneler,
+.Fincan_haqqinda,
+.Fincan_alt_yazilar,
+.Fincanlar,
+.FincanSekili,
+.haqqimizda,
+.hereketliKursor,
+.telefonKeysleri {
+	border-radius: 10px;
+}
+
+.Fincan_haqqinda,
+.Fincan_alt_yazilar {
+	border: 1px solid #4881CE;
+}
+
+
+.Fincan_Sekil {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 50px 0 0 15px;
+}
+
+.Fincan_haqqinda {
+	width: 273px;
+	float: left;
+	margin: 35px 0 0 143px;
+
+
+}
+
+.Fincan_haqqinda h4 {
+	color: green;
+	text-decoration: line-through;
+	text-align: left;
+	margin-left: 12px;
+}
+
+.Fincan_alt_yazilar {
+	float: left;
+	width: 600px;
+	margin: 30px 0 0 15px;
+	padding-bottom: 6px;
+}
+
+.xamelionlar {
+	float: left;
+	width: 650px;
+	margin: 30px 0 0 10px;
+
+}
+
+.x_fincan {
+	width: 210px;
+	height: 260px;
+	float: left;
+	border-bottom: 1px solid #4881CE;
+	margin-left: 6px;
+	margin-top: 10px;
+}
+
+.x_fincan img {
+	float: left;
+	width: 200px;
+	height: 200px;
+
+}
+
+.x_fincan p {
+	text-align: center;
+	margin-left: 30px;
+	float: left;
+}
+
+.qara {
+	color: black;
+}
+
+.goy {
+	color: blue;
+}
+
+.yasil {
+	color: green;
+}
+
+.narinci {
+	color: #FE2823;
+}
+
+.cehrayi {
+	color: #D507A6;
+}
+
+.qirmizi {
+	color: red;
+}
+
+.sari {
+	color: #DAB162;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	margin: 70px 0 0 45px;
+	position: relative;
+	z-index: 0;
+	float: left;
+}
+
+
+.slides {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	z-index: 100;
+}
+
+
+.slides_container {
+	width: 500px;
+	height: 330px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+
+.slides .next,
+.slides .prev {
+	position: absolute;
+	top: 140px;
+	left: -28px;
+	width: 24px;
+	height: 43px;
+	display: block;
+	z-index: 101;
+
+}
+
+
+
+.slides .next {
+	left: 504px;
+
+}
+
+
+
+.caption {
+	position: absolute;
+	bottom: -35px;
+	height: 30px;
+	padding: 5px 20px 0 20px;
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	width: 460px;
+	font: bold 16px serif;
+	text-align: left;
+	color: #fff;
+	border-top: 1px solid #000;
+	text-shadow: none;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	background-color: #4E99C0;
+	height: 50px;
+	margin-top: 100px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 15px;
+}
+
+
+
+
+
+
+/*     Fincan novleri    */
+.BlokFincanlar {
+	border: 1px solid #1F72A5;
+	width: 900px;
+	height: 1100px;
+	margin: 36px auto 0 auto;
+	background-color: #D3EDF4;
+	position: relative;
+	border-radius: 10px;
+}
+
+
+
+.BlokFincanlar p {
+	padding-top: 4px;
+	font-size: 15px;
+	line-height: 21px;
+
+}
+
+
+
+
+
+.FincanSekili {
+	border: 1px solid white;
+	width: 180px;
+	height: 225px;
+	float: left;
+	margin: 35px 0 5px 34px;
+	background-color: white;
+}
+
+.FincanSekili:hover {
+	border: 1px solid #1F72A5;
+
+}
+
+
+.FincanSekili img {
+	margin-top: 15px;
+}
+
+.FincanSekili a {
+	text-decoration: none;
+	color: #4881CE;
+}
+
+.FincanSekili a:hover {
+	text-decoration: underline;
+
+}
+
+.FincanSekili .qiymet {
+	font-size: 14px;
+	color: #FF6600;
+
+}
+
+/*     Fincan novleri  Son  */
+
+
+
+
+
+
+
+
+
+
+/*     Telefon keysleri    */
+.blokCase {
+	border: 1px solid #1F72A5;
+	width: 900px;
+	height: 760px;
+	margin: 150px auto 0 auto;
+	background-color: #D3EDF4;
+	position: relative;
+	border-radius: 10px;
+}
+
+
+.blokCaseBasliq {
+	position: absolute;
+	top: -45px;
+	left: 25px;
+}
+
+
+.blokCase p {
+	padding-top: 4px;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+
+.telefonKeysleri {
+	border: 1px solid white;
+	width: 180px;
+	height: 200px;
+	float: left;
+	margin: 35px 0 5px 34px;
+	background-color: white;
+}
+
+
+.telefonKeysleri:hover {
+	border: 1px solid #1F72A5;
+
+}
+
+.telefonKeysleri img {
+	margin-top: 15px;
+}
+
+.telefonKeysleri a {
+	text-decoration: none;
+	color: #4881CE;
+}
+
+.telefonKeysleri a:hover {
+	text-decoration: underline;
+}
+
+/*     Telefon keysleri  Son  */
+
+
+
+
+
+.headerElaqe {
+	float: right;
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-style: italic;
+
+}
+
+.headerElaqe a {
+	text-decoration: none;
+	color: white;
+}
+
+.headerElaqe a:hover {
+	color: red;
+}
+
+.biznes {
+	color: white;
+	float: left;
+	margin: 65px 0 0 200px;
+}
+
+.biznes a:hover {
+	color: red;
+}
+
+.biznes a {
+	color: white;
+}
+
+.googleAdsense {
+	margin: 30px auto 0 auto;
+	height: 101px;
+	width: 321px;
+
+}
